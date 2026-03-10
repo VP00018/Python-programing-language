@@ -3,4 +3,5 @@ age = 18
 gpa = 7.2
 is_student = True
 
-print(type(is_student))
+gpa = int(gpa)
+print(gpa)
