@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 # fruits = ["Apple","orange","banana","coconut"]
 # vegetables = ["celery","carrot","potatoes"]
@@ -25,3 +26,32 @@ for row in num_pad:
     for num in row:
         print(num, end=" ")
     print()
+=======
+"""
+# fruits = ["Apple","orange","banana","coconut"]
+# vegetables = ["celery","carrot","potatoes"]
+# meats = ["chicken","fish","turkey"]
+
+groceries = [["Apple","orange","banana","coconut"],
+            ["celery","carrot","potatoes"],
+            ["chicken","fish","turkey"]]
+
+# print(groceries[0][1])
+
+for collection in groceries:
+    for food in collection:
+        print(food, end=" ")
+    print()
+
+"""
+
+num_pad = ((1,2,3),
+           (4,5,6),
+           (7,8,9),
+           ("*",0,"#"))
+
+for row in num_pad:
+    for num in row:
+        print(num, end=" ")
+    print()
+>>>>>>> c221da442758ed131598f2b393070929f837904f
